@@ -1,6 +1,5 @@
 package com.example.scheduleproject.entity;
 
-
 import com.example.scheduleproject.dto.ScheduleRequestDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -33,6 +32,4 @@ public class Schedule {
         this.writer = dto.getWriter();
 
     }
-
-
 }
