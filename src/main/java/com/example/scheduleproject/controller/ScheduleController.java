@@ -57,7 +57,7 @@ public class ScheduleController {
         return new ResponseEntity<>(new ScheduleResponseDto(schedule),HttpStatus.OK);
     }
 
-    //일정 삭제
+    //일정 전체 삭제
     @DeleteMapping("/{id}")
     public void deleteSchedule(
             @PathVariable Long id
