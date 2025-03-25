@@ -3,7 +3,7 @@ package com.example.scheduleproject.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
+
 
 
 @NoArgsConstructor
