@@ -10,4 +10,4 @@
 
 📌**일정표 ERD**
 <br>
-<br>![Schedule ERD](https://github.com/kangdalho/Schedule/blob/main/ERD.PNG?raw=true)
+<br>
