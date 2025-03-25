@@ -1,7 +1,6 @@
 package com.example.scheduleproject.entity;
 
 
-
 import com.example.scheduleproject.dto.ScheduleRequestDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,7 +14,7 @@ public class Schedule {
     private Long id;
     private String todo;
     private String writer;
-    private String  password;
+    private String password;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
 
@@ -29,9 +28,9 @@ public class Schedule {
         this.updateDate = LocalDateTime.now();
     }
 
-    public void update(ScheduleRequestDto dto){
-    this.todo = dto.getTodo();
-    this.writer = dto.getWriter();
+    public void update(ScheduleRequestDto dto) {
+        this.todo = dto.getTodo();
+        this.writer = dto.getWriter();
 
     }
 
