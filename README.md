@@ -9,4 +9,4 @@
 |일정삭제|DELETE|/schedule/{id}|요청 param {id: 1}|삭제완료메시지|200:성공|
 
 📌**일정표 ERD**
-![Schedule ERD](https://github.com/kangdalho/Schedule/blob/main/ERD.PNG?raw=true)
+<br>![Schedule ERD](https://github.com/kangdalho/Schedule/blob/main/ERD.PNG?raw=true)
