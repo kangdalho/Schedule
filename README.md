@@ -1,4 +1,4 @@
-📌###일정표 API
+📌**일정표 API**
 
 |기능|Method|URL|Request|response|상태코드|
 |---|---|---|---|---|---|
@@ -8,6 +8,6 @@
 |일정단건수정|PATCH|/schedules/{id}|요청 body<br>{<br>"todo":"수정된 할 일",<br>"writer":"수정된 작성자"<br>}|단건 수정 정보<br>{<br>"id": 1,<br>"todo": "수정된할 일",<br>"writer": "수정된 작성자",<br>"createDate":"작성 시간",<br>"upadateDate":"수정 시간"<br>}|200:성공|
 |일정삭제|DELETE|/schedule/{id}|요청 param {id: 1}|삭제완료메시지|200:성공|
 
-📌***일정표 ERD**
+📌**일정표 ERD**
 <br>
 <br>![Schedule ERD](https://github.com/kangdalho/Schedule/blob/main/ERD.PNG?raw=true)
