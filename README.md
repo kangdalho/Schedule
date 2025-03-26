@@ -8,6 +8,7 @@
 |일정단건수정|PATCH|/schedules/{id}|요청 param {id: 1}<br>요청 body<br>{<br>"todo":"수정된 할 일",<br>"writer":"수정된 작성자"<br>"password":"비밀번호"<br>}|단건 수정 정보<br>{<br>"id": 1,<br>"todo": "수정된 할 일",<br>"writer": "수정된 작성자",<br>"createDate":"작성 시간",<br>"upadateDate":"수정 시간"<br>}|200:성공|
 |일정삭제|DELETE|/schedule/{id}|요청 param {id: 1}<br>요청 body<br>{<br>"password":"비밀번호"<br>}|삭제완료메시지|200:성공|
 
+
 📌**일정표 ERD**
 <br>
 <br> ![Schedule ERD](https://github.com/kangdalho/Schedule/blob/main/ScheduleERD.PNG?raw=true)
