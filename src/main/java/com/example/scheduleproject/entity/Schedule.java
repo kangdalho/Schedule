@@ -30,6 +30,6 @@ public class Schedule {
     public void update(ScheduleRequestDto dto) {
         this.todo = dto.getTodo();
         this.writer = dto.getWriter();
-
+        this.updateDate = LocalDateTime.now();
     }
 }
